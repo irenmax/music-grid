@@ -12,6 +12,11 @@
 			'C#5', 'D#5', 'E5', 'G#5',
 			'B5', 'C#6', 'F#6', 'G#6'
 		],
+		classic_2: [
+			"B#6", "B#6", "G6", "F6",
+    	"D6", "B#5", "A5", "G5", 
+			"F5", "D5", "B#4", "A4",
+		],
 		pentatonic: [
 			'C4', 'D4', 'E4', 'G4',
 			'A4', 'C5', 'D5', 'E5',
@@ -43,8 +48,14 @@
 
 		synth = new Tone.PolySynth(4, Tone.Synth, {
 			oscillator : {
-				type : 'triangle'
-			}
+				type : 'sine'
+			},
+			envelope: {
+        attack: 0.005,
+        decay: 0.1,
+        sustain: 0.3,
+        release: 1,
+      },
 		}).toMaster();
 		synth.connect(destinationStream);
 
