@@ -2741,7 +2741,7 @@ var app = (function () {
     	return child_ctx;
     }
 
-    // (177:1) {#if recording}
+    // (181:1) {#if recording}
     function create_if_block$1(ctx) {
     	let span;
 
@@ -2749,8 +2749,8 @@ var app = (function () {
     		c: function create() {
     			span = element("span");
     			span.textContent = "Please wait for the playback to finish";
-    			attr_dev(span, "class", "message svelte-wvhii7");
-    			add_location(span, file$3, 177, 2, 3476);
+    			attr_dev(span, "class", "message svelte-up09zo");
+    			add_location(span, file$3, 181, 2, 3551);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, span, anchor);
@@ -2764,14 +2764,14 @@ var app = (function () {
     		block,
     		id: create_if_block$1.name,
     		type: "if",
-    		source: "(177:1) {#if recording}",
+    		source: "(181:1) {#if recording}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (182:2) {#each grid as row}
+    // (197:2) {#each grid as row}
     function create_each_block$2(ctx) {
     	let row;
     	let updating_row;
@@ -2845,7 +2845,7 @@ var app = (function () {
     		block,
     		id: create_each_block$2.name,
     		type: "each",
-    		source: "(182:2) {#each grid as row}",
+    		source: "(197:2) {#each grid as row}",
     		ctx
     	});
 
@@ -2871,23 +2871,42 @@ var app = (function () {
     	let a0;
     	let t9;
     	let table;
+    	let thead;
+    	let th0;
     	let t10;
+    	let th1;
+    	let t12;
+    	let th2;
+    	let t14;
+    	let th3;
+    	let t16;
+    	let th4;
+    	let t18;
+    	let th5;
+    	let t20;
+    	let th6;
+    	let t22;
+    	let th7;
+    	let t24;
+    	let th8;
+    	let t26;
+    	let t27;
     	let br2;
-    	let t11;
+    	let t28;
     	let div0;
     	let a1;
-    	let t13;
+    	let t30;
     	let br3;
-    	let t14;
+    	let t31;
     	let a2;
-    	let t16;
+    	let t33;
     	let a3;
     	let i;
-    	let t17;
+    	let t34;
     	let a4;
-    	let t19;
+    	let t36;
     	let br4;
-    	let t20;
+    	let t37;
     	let br5;
     	let current;
     	let mounted;
@@ -2954,70 +2973,116 @@ var app = (function () {
     			a0.textContent = "Download";
     			t9 = space();
     			table = element("table");
+    			thead = element("thead");
+    			th0 = element("th");
+    			t10 = space();
+    			th1 = element("th");
+    			th1.textContent = "outside";
+    			t12 = space();
+    			th2 = element("th");
+    			th2.textContent = "low activity";
+    			t14 = space();
+    			th3 = element("th");
+    			th3.textContent = "med activity";
+    			t16 = space();
+    			th4 = element("th");
+    			th4.textContent = "high activity";
+    			t18 = space();
+    			th5 = element("th");
+    			th5.textContent = "noise";
+    			t20 = space();
+    			th6 = element("th");
+    			th6.textContent = "light";
+    			t22 = space();
+    			th7 = element("th");
+    			th7.textContent = "socializing";
+    			t24 = space();
+    			th8 = element("th");
+    			th8.textContent = "overall";
+    			t26 = space();
 
     			for (let i = 0; i < each_blocks.length; i += 1) {
     				each_blocks[i].c();
     			}
 
-    			t10 = space();
+    			t27 = space();
     			br2 = element("br");
-    			t11 = space();
+    			t28 = space();
     			div0 = element("div");
     			a1 = element("a");
     			a1.textContent = "Best of Music Grid";
-    			t13 = space();
+    			t30 = space();
     			br3 = element("br");
-    			t14 = space();
+    			t31 = space();
     			a2 = element("a");
     			a2.textContent = "Svelte";
-    			t16 = text(" \n\t\t| ");
+    			t33 = text(" \n\t\t| ");
     			a3 = element("a");
     			i = element("i");
-    			t17 = text(" \n\t\t| ");
+    			t34 = text(" \n\t\t| ");
     			a4 = element("a");
     			a4.textContent = "irshad";
-    			t19 = space();
+    			t36 = space();
     			br4 = element("br");
-    			t20 = space();
+    			t37 = space();
     			br5 = element("br");
-    			add_location(h3, file$3, 163, 1, 3047);
-    			add_location(br0, file$3, 164, 54, 3121);
-    			attr_dev(span, "class", "tagline svelte-wvhii7");
-    			add_location(span, file$3, 164, 1, 3068);
-    			add_location(br1, file$3, 165, 1, 3168);
+    			add_location(h3, file$3, 167, 1, 3122);
+    			add_location(br0, file$3, 168, 54, 3196);
+    			attr_dev(span, "class", "tagline svelte-up09zo");
+    			add_location(span, file$3, 168, 1, 3143);
+    			add_location(br1, file$3, 169, 1, 3243);
     			attr_dev(a0, "download", "music-grid.wav");
     			a0.hidden = "true";
-    			add_location(a0, file$3, 179, 1, 3552);
-    			attr_dev(table, "class", "svelte-wvhii7");
-    			add_location(table, file$3, 180, 1, 3634);
-    			add_location(br2, file$3, 185, 1, 3793);
+    			add_location(a0, file$3, 183, 1, 3627);
+    			attr_dev(th0, "class", "svelte-up09zo");
+    			add_location(th0, file$3, 186, 2, 3758);
+    			attr_dev(th1, "class", "svelte-up09zo");
+    			add_location(th1, file$3, 187, 2, 3770);
+    			attr_dev(th2, "class", "svelte-up09zo");
+    			add_location(th2, file$3, 188, 2, 3789);
+    			attr_dev(th3, "class", "svelte-up09zo");
+    			add_location(th3, file$3, 189, 2, 3813);
+    			attr_dev(th4, "class", "svelte-up09zo");
+    			add_location(th4, file$3, 190, 2, 3837);
+    			attr_dev(th5, "class", "svelte-up09zo");
+    			add_location(th5, file$3, 191, 2, 3862);
+    			attr_dev(th6, "class", "svelte-up09zo");
+    			add_location(th6, file$3, 192, 2, 3879);
+    			attr_dev(th7, "class", "svelte-up09zo");
+    			add_location(th7, file$3, 193, 2, 3896);
+    			attr_dev(th8, "class", "svelte-up09zo");
+    			add_location(th8, file$3, 194, 2, 3919);
+    			add_location(thead, file$3, 185, 2, 3748);
+    			attr_dev(table, "class", "svelte-up09zo");
+    			add_location(table, file$3, 184, 1, 3709);
+    			add_location(br2, file$3, 200, 1, 4068);
     			attr_dev(a1, "href", "https://irshadpi.me/best-of-music-grid");
     			attr_dev(a1, "target", "_blank");
-    			attr_dev(a1, "class", "svelte-wvhii7");
-    			add_location(a1, file$3, 187, 2, 3838);
-    			add_location(br3, file$3, 188, 2, 3928);
+    			attr_dev(a1, "class", "svelte-up09zo");
+    			add_location(a1, file$3, 202, 2, 4113);
+    			add_location(br3, file$3, 203, 2, 4203);
     			attr_dev(a2, "href", "https://svelte.dev");
     			attr_dev(a2, "target", "_blank");
-    			attr_dev(a2, "class", "svelte-wvhii7");
-    			add_location(a2, file$3, 189, 2, 3936);
+    			attr_dev(a2, "class", "svelte-up09zo");
+    			add_location(a2, file$3, 204, 2, 4211);
     			attr_dev(i, "class", "fa fa-lg fa-github");
-    			add_location(i, file$3, 190, 72, 4065);
+    			add_location(i, file$3, 205, 72, 4340);
     			attr_dev(a3, "href", "https://github.com/irshadshalu/music-grid");
     			attr_dev(a3, "target", "_blank");
-    			attr_dev(a3, "class", "svelte-wvhii7");
-    			add_location(a3, file$3, 190, 4, 3997);
+    			attr_dev(a3, "class", "svelte-up09zo");
+    			add_location(a3, file$3, 205, 4, 4272);
     			attr_dev(a4, "href", "https://irshadpi.me");
     			attr_dev(a4, "target", "_blank");
-    			attr_dev(a4, "class", "svelte-wvhii7");
-    			add_location(a4, file$3, 191, 4, 4109);
-    			attr_dev(div0, "class", "footer svelte-wvhii7");
+    			attr_dev(a4, "class", "svelte-up09zo");
+    			add_location(a4, file$3, 206, 4, 4384);
+    			attr_dev(div0, "class", "footer svelte-up09zo");
     			attr_dev(div0, "align", "center");
-    			add_location(div0, file$3, 186, 1, 3800);
-    			add_location(br4, file$3, 193, 1, 4176);
-    			add_location(br5, file$3, 194, 1, 4183);
-    			attr_dev(div1, "class", "container svelte-wvhii7");
+    			add_location(div0, file$3, 201, 1, 4075);
+    			add_location(br4, file$3, 208, 1, 4451);
+    			add_location(br5, file$3, 209, 1, 4458);
+    			attr_dev(div1, "class", "container svelte-up09zo");
     			attr_dev(div1, "align", "center");
-    			add_location(div1, file$3, 162, 0, 3007);
+    			add_location(div1, file$3, 166, 0, 3082);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -3041,28 +3106,47 @@ var app = (function () {
     			/*a0_binding*/ ctx[15](a0);
     			append_dev(div1, t9);
     			append_dev(div1, table);
+    			append_dev(table, thead);
+    			append_dev(thead, th0);
+    			append_dev(thead, t10);
+    			append_dev(thead, th1);
+    			append_dev(thead, t12);
+    			append_dev(thead, th2);
+    			append_dev(thead, t14);
+    			append_dev(thead, th3);
+    			append_dev(thead, t16);
+    			append_dev(thead, th4);
+    			append_dev(thead, t18);
+    			append_dev(thead, th5);
+    			append_dev(thead, t20);
+    			append_dev(thead, th6);
+    			append_dev(thead, t22);
+    			append_dev(thead, th7);
+    			append_dev(thead, t24);
+    			append_dev(thead, th8);
+    			append_dev(table, t26);
 
     			for (let i = 0; i < each_blocks.length; i += 1) {
     				each_blocks[i].m(table, null);
     			}
 
-    			append_dev(div1, t10);
+    			append_dev(div1, t27);
     			append_dev(div1, br2);
-    			append_dev(div1, t11);
+    			append_dev(div1, t28);
     			append_dev(div1, div0);
     			append_dev(div0, a1);
-    			append_dev(div0, t13);
+    			append_dev(div0, t30);
     			append_dev(div0, br3);
-    			append_dev(div0, t14);
+    			append_dev(div0, t31);
     			append_dev(div0, a2);
-    			append_dev(div0, t16);
+    			append_dev(div0, t33);
     			append_dev(div0, a3);
     			append_dev(a3, i);
-    			append_dev(div0, t17);
+    			append_dev(div0, t34);
     			append_dev(div0, a4);
-    			append_dev(div1, t19);
+    			append_dev(div1, t36);
     			append_dev(div1, br4);
-    			append_dev(div1, t20);
+    			append_dev(div1, t37);
     			append_dev(div1, br5);
     			current = true;
 
@@ -3173,11 +3257,11 @@ var app = (function () {
     	let config = {
     		playing: false,
     		speed: 200,
-    		rows: 16,
+    		rows: 24,
     		scale_key: "classic"
     	};
 
-    	let columns = 12;
+    	let columns = 8;
     	let grid = [];
     	let gameInterval;
     	let curRow = 0;

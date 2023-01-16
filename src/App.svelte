@@ -5,11 +5,11 @@
 	let config = {
 		playing: false,
 		speed: 200,
-		rows: 16,
+		rows: 24,
 		scale_key: 'classic',
 	}
 
-	let columns = 12;
+	let columns = 8;
 	let grid = [];
 	let gameInterval;
 	let curRow = 0;
@@ -154,6 +154,10 @@
 		color: red;
 	}
 
+	th {
+	  writing-mode: vertical-rl;
+  	text-orientation: sideways-right;
+	}
 	input[type=range] {
 		width: 20em;
 	}
@@ -179,6 +183,17 @@
 	{/if}
 	<a bind:this={downloadLink} download="music-grid.wav" hidden="true">Download</a>
 	<table on:click|once={startPlaying}>
+		<thead>
+		<th></th>
+		<th>outside</th>
+		<th>low activity</th>
+		<th>med activity</th>
+		<th>high activity</th>
+		<th>noise</th>
+		<th>light</th>
+		<th>socializing</th>
+		<th>overall</th>
+	</thead>
 		{#each grid as row}
 			<Row bind:row={row} bind:playing={row.isPlaying} paused={!config.playing}/>
 		{/each}
