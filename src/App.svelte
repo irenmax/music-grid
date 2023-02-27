@@ -189,7 +189,7 @@
 		<th>low activity</th>
 		<th>med activity</th>
 		<th>high activity</th>
-		<th>noise</th>
+		<th>quiet</th>
 		<th>light</th>
 		<th>socializing</th>
 		<th>overall</th>
